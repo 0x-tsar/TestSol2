@@ -7,7 +7,7 @@ contract HelloWorld {
   constructor() public {
   }
 
-  function get_msg()public view returns(string){
+  function get_msg()public view returns(string memory){
     return olamundo;
   }
 }
